@@ -4,6 +4,10 @@ My own defined aliases to `.bashrc`\
 Inspired by [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
 ```bash
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# .bash_aliases, instead of adding them here directly.
+
 ## clear command in shorthand
 alias c='clear'
 
