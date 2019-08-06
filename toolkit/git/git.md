@@ -9,7 +9,31 @@ git config --global user.name "junyeonglee" # Set username
 git config --global user.email "junyeonglee@email.com" # Set email
 git config --global user.name # Get username
 
-# Create a new local repository
-git init
+# git basic
+git init # Create a new local repository
+git clone https://host/repository # Check out a repository
+git add <filename> # Add files
+git commit -m "Commit message" # Commit
+git push origin master # Send changes to the master branch of your remote repository
 
+# git remote
+git remote add origin <server> # Add a remote server
+git remote -v # List all remote repositories
+
+# git branches
+git branch # List all the branches
+git checkout <branchname> # Switch branch
+
+# Update from the remote repository
+git pull # Fetch and merge changes on the remote server to your working directory
+git merge <branchname> # Merge a different branch into your active branch
+
+# git tag
+git tag 1.0.0 <commitID> # Mark a significant changeset
+git push --tags origin # Push all tags to remote repository
+
+# Undo local changes
+git checkout -- <filename> # Discard changes on file
+git fetch origin # Fetch the latest history from the server
+git reset --hard origin/master # Drop all local changes and commits
 ```
