@@ -50,3 +50,5 @@ Kubernetes provides you with:
 - Automatic bin packing
 - Self-healing
 - Secret and configuration management
+
+Next: [Kubernetes Components](02-kubernetes-components.md)
