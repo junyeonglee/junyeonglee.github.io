@@ -9,8 +9,8 @@ Kubernetes is an open source container orchestration engine for automating deplo
 - [What is Kubernetes](01-what-is-kubernetes.md)
 - [Kubernetes Components](02-kubernetes-components.md)
 
-:point_right: [**Learn Concepts**](00-pod-concepts.md)
+:point_right: [**Learn Concepts**](00-concepts.md)
 
-## Look up reference information:
+## Look up reference information
 
 - [kubectl Cheat Sheet](../../toolkit/container-orchestration/kubectl-cheat-sheet.md)
