@@ -1,6 +1,6 @@
 # Add New User(wheel) with SSH key
 
-```bash
+```sh
 # Login to remote server
 ssh root@remote-server-ip
 
@@ -13,4 +13,10 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAtBcTeRt6zKKsAIVt9g2z3DIDaMUW09B3AG90hT
 
 chmod 700 /home/my-user/.ssh # change folder permission
 chmod 600 /home/my-user/.ssh/authorized_keys # change file permission
+```
+
+## (Optional) adding supplementary group to user
+
+```sh
+usermod -aG my-group my-user # add user to group
 ```
