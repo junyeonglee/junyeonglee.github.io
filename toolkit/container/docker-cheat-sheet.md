@@ -15,6 +15,7 @@ docker push my-image # Push an image (repo) to a registry
 # Work
 docker ps # List containers
 docker images # List images
+docker tag src-image:tag target-image:tag # Create a tag target-image from src-image
 
 docker run -it ubuntu bash # Run a command in a new container(image=ubuntu) as interactive shell
 docker exec -it my-container bash # Run a command in a running container(my-container) as interactive shell
