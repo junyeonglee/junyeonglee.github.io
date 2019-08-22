@@ -14,10 +14,11 @@ kubectl apply -f ./dir # create resource(s) in all manifest files in dir
 
 # Get commands with basic output
 kubectl get services # List all services
-kubectl get pods # List all pods
 kubectl get deployments # List all deployments
+kubectl get pods # List all pods
 
 # Describe commands with verbose output
+kubectl describe deployments my-deployment
 kubectl describe pod my-pod
 
 # Interacting with running Pods
