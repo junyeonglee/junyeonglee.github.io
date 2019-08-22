@@ -6,7 +6,9 @@ Linux tools you should know
 
 Quick Tutorials
 
-- [Add New User(wheel) with SSH key](useradd-ssh-key.md)
+- [Add New User(wheel) with SSH key](users.md)
+- [Add supplementary group to user](users.md)
+- [Configure `sudo` to never ask for password](users.md)
 
 Config Examples
 

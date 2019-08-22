@@ -1,4 +1,6 @@
-# Add New User(wheel) with SSH key
+# User
+
+## Add new user(wheel) with SSH key
 
 ```sh
 # Login to remote server
@@ -15,8 +17,17 @@ chmod 700 /home/my-user/.ssh # change folder permission
 chmod 600 /home/my-user/.ssh/authorized_keys # change file permission
 ```
 
-## (Optional) adding supplementary group to user
+## Add supplementary group to user
 
 ```sh
 usermod -aG my-group my-user # add user to group
+```
+
+## Configure `sudo` to never ask for password
+
+```sh
+sudo visudo # safely edit the sudoers file
+
+# Add the following line
+YOUR_USERNAME_HERE ALL=(ALL) NOPASSWD: ALL
 ```
