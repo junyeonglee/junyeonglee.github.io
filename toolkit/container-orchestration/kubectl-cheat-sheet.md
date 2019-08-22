@@ -4,6 +4,10 @@ My most common `kubectl` command\
 Reference: [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 ```bash
+# Config
+kubectl config use-context my-cluster-name # set the default context to my-cluster-name
+kubectl config set-context my-cluster-name --namespace=my-namespace # set the default context to my-cluster-name with specified my-namespace
+
 # Creating Objects
 kubectl apply -f ./my-manifest.yaml # create resource(s)
 kubectl apply -f ./dir # create resource(s) in all manifest files in dir
