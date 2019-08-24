@@ -9,7 +9,9 @@ One of the most popular editors in unix
 
 ## Work
 
-`:set number` show line number\
+`dd` delete line\
+`:set number` show line number
+
 `:w` write\
 `:wq` write + quit\
 `:q!` quit without saving
