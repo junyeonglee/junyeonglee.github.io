@@ -3,6 +3,8 @@
 My own defined aliases to `.bashrc`\
 Inspired by [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
+You may want to put all your additions alias definition into a separate file `.bash_aliases`
+
 ```bash
 # Alias definitions.
 # You may want to put all your additions into a separate file like
