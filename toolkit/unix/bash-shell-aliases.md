@@ -3,7 +3,7 @@
 My own defined aliases to `.bashrc`\
 Inspired by [30 Handy Bash Shell Aliases For Linux / Unix / Mac OS X](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)
 
-You may want to put all your additions alias definition into a separate file `.bash_aliases`
+`.bash_aliases`
 
 ```bash
 # Alias definitions.
@@ -71,4 +71,10 @@ alias httpdreload='sudo /usr/sbin/apachectl -k graceful'
 
 # Resume wget by default
 alias wget='wget -c'
+```
+
+Execute alias commands
+
+```sh
+source .bashrc # or .bash_aliases
 ```
