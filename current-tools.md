@@ -10,6 +10,7 @@ In alphabetic order
 - [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html): Development kit for Java developer (I was)
 - [KeePass](https://keepass.info/): Light-weight password manager with encrypted database
 - [Kubectl](https://kubernetes.io/docs/reference/kubectl/overview/): CLI for running command against Kubernetes cluster for managing containerized workloads and services
+- [MongoDB](https://www.mongodb.com/): Document-based database for the cloud era
 - [node](https://nodejs.org/en/): JavaScript runtime environment
 - [npm](https://www.npmjs.com/): Package manager for JavaScript
 - [Postman](https://www.getpostman.com/): API Development Environment
