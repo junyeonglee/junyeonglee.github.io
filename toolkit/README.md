@@ -13,3 +13,4 @@ My cheat sheet collection:
 - [Markdown + Github Flavored Markdown (GFM)](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) :octocat:
 - [Emoji](http://www.emoji-cheat-sheet.com/)
 - [Docker](container/docker-cheat-sheet.md)
+- [npm](package-manager/npm.md)
