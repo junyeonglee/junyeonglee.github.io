@@ -4,8 +4,9 @@ The developer's bible 👨‍💻
 
 My pocket guide collection:
 
-- [Unix](unix/README.md)
-- [Docker](docker/README.md)
-- [Kubernetes](kubernetes/README.md)
-- [Github](github/README.md)
 - [Ansible](ansible/README.md)
+- [AWS](aws/README.md)
+- [Docker](docker/README.md)
+- [Github](github/README.md)
+- [Kubernetes](kubernetes/README.md)
+- [Unix](unix/README.md)
