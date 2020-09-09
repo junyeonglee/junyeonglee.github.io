@@ -33,6 +33,7 @@ kubectl scale --replicas=2 deployment/foo # Scale a deployment named 'foo' to 2
 # Deleting Resources
 kubectl delete deployment my-deployment # Delete deployment
 kubectl delete pod my-pod # Delete pod
+kubectl delete pod my-pod --grace-period=<seconds> # Graceful terminate 
 
 # Formatting output
 -o=json # Output a JSON formatted API object
