@@ -80,7 +80,7 @@ def breath_first_search(root):
     root.marked = True
     queue.append(root) # add to the end of queue
 
-    while not queue.is_empty():
+    while not queue:
         r = queue.pop(0) # remove from the front of queue
         visit(r)
         for node in r.adjacent:
