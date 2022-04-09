@@ -12,7 +12,7 @@ def mergesort(arr, helper, low, high):
         middle = int ((low + high) / 2)
         mergesort(arr, helper, low, middle)  # sort left half
         mergesort(arr, helper, middle + 1, high)  # sort right half
-        merge(arr, low, middle, high)  # merge them
+        merge(arr, helper, low, middle, high)  # merge them
 
 def merge(arr, helper, low, middle, high):
     # copy both halves into a helper array

@@ -34,4 +34,8 @@ git tag 1.0.0 <commitID> # Mark a significant changeset
 git checkout -- <filename> # Discard changes on file
 git fetch origin # Fetch the latest history from the server
 git reset --hard origin/master # Drop all local changes and commits
+
+# Patch
+git diff > my-patch
+git apply my-patch
 ```
