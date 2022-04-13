@@ -28,8 +28,8 @@ def prime_slightly_better(n):
 
 ### Probability of A and B
 
-P(A and B) = P(B given A) P(A)
-P(A and B) = P(A given B) P(B)
+P(A and B) = P(B given A) P(A)  
+P(A and B) = P(A given B) P(B)  
 P(A given B) = P(B given A) P(A) / P(B)  # Bayes' Theorem
 
 ### Probability of A or B
