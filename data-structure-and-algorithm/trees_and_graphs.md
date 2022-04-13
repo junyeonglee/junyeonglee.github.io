@@ -26,15 +26,15 @@ class TreeNode:
 
 def in_order_traversal(node):
     if node:
-        pre_order_traversal(node.left)
+        in_order_traversal(node.left)
         visit(node)
-        pre_order_traversal(node.right)
+        in_order_traversal(node.right)
 
 def pre_order_traversal(node):
     if node:
         visit(node)
-        post_order_traversal(node.left)
-        post_order_traversal(node.right)
+        pre_order_traversal(node.left)
+        pre_order_traversal(node.right)
 
 def post_order_traversal(node):
     if node:
