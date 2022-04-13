@@ -6,7 +6,7 @@ Data structure composed of nodes
 
 ```python
 class Node:
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.children = None  # array of node(s)
 
@@ -19,7 +19,7 @@ class Tree:
 
 ```python
 class TreeNode:
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.left = None
         self.right = None
@@ -51,6 +51,11 @@ A graph is simply a collection of nodes with edges between (some of) them
 class Graph:
     def __init__(self):
         self.nodes = None
+
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.children = None  # array of node(s)
 ```
 
 ### Depth-First Search(DFS)
