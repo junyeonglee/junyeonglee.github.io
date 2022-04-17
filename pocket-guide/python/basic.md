@@ -233,6 +233,11 @@ for language in set(favorite_languages.values()): # Unique values
 >>> languages
 {'ruby', 'python', 'c'}
 
+# add item to set
+>>> languages.add('java')
+>>> languages
+{'c', 'java', 'ruby', 'python'}
+
 # a list of dictionaries
 alien_0 = {'color': 'green', 'points': 5}
 alien_1 = {'color': 'yellow', 'points': 10}
