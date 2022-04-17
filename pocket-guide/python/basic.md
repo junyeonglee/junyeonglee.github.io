@@ -45,6 +45,8 @@ language.lstrip() # 'python '
 2.0 # divide always get float
 >>> 1 + 2.0
 3.0
+>>> 4//2 
+2 # floor division
 
 # Underscored in numbers
 >>> universe_age = 14_000_000_000 # for readability
