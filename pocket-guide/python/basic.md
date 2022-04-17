@@ -7,6 +7,9 @@
 message = "Hello, World!"
 print(message)
 
+# Using same value to multiple variable
+x = y = "Orange"
+
 # Changing case in a string with methods
 name = "john doe"
 name.title() # John Doe
@@ -78,6 +81,19 @@ cars.sort(reverse=true) # reverse alphabetical order
 
 sorted(cars) # sort alphabetically (temporarily) 
 sorted(cars, reverse=True) # reverse
+
+# Customizing sort order
+from functools import cmp_to_key
+
+sorted(cars, key=cmp_to_key(compare)) # a custom key function can be supplied to customize the sort order
+
+def compare(left, right):
+    if len(left) < len(right):
+        return -1
+    elif len(left) == len(right):
+        return 0
+    else:
+        return 1
 
 # Printing a list in reverse order 
 cars.reverse() # reverses the order of the list 
@@ -229,6 +245,11 @@ user = {
        'first': 'marie'
     }
 }
+
+# search records with key's value 
+>>> aliens = {0: 15, 1: 80, 2: 30, 3: 20}
+>>> [key for key in aliens if aliens[key] >= 30]
+[1, 2]
 ```
 
 ## User Input and While Loops
