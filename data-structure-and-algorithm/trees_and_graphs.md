@@ -43,6 +43,26 @@ def post_order_traversal(node):
         visit(node)
 ```
 
+### Binary Search Tree
+
+left < root < right
+in_order_traversal of BST always produces sorted sequence
+
+```python
+def insert_to_bst(node, data):
+    if node is None:
+        return TreeNode(data)
+    else:
+        if data == node.data:
+            return node
+        elif data < node.left:
+            node.left = insert(node.left, data)
+        else:
+            node.right = insert(node.right, data)
+
+    return node
+```
+
 ## Graphs
 
 A graph is simply a collection of nodes with edges between (some of) them
