@@ -43,7 +43,7 @@ def post_order_traversal(node):
         visit(node)
 ```
 
-### Binary Search Tree
+### Binary Search Tree (Insertion)
 
 left < root < right
 in_order_traversal of BST always produces sorted sequence
@@ -60,6 +60,23 @@ def insert_to_bst(node, data):
         else:
             node.right = insert(node.right, data)
 
+    return node
+```
+
+## Binary Search Tree Creation with Minimal Height
+
+```python
+def minimal_tree(arr):
+    return minimal_tree1(arr, 0, len(arr) - 1)
+
+def minimal_tree1(arr, low, high):
+    if low > high:
+        return None
+        
+    mid = (low + high) // 2
+    node = Node(arr[mid])
+    node.left = minimal_tree1(arr, low, mid - 1)
+    node.right = minimal_tree1(arr, mid + 1, high)
     return node
 ```
 
