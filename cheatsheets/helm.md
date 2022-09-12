@@ -2,7 +2,7 @@
 
 ## Cheat Sheet
 
-```bash
+```sh
 # repo 
 helm repo list # list existing repo
 helm repo add bitnami https://charts.bitnami.com/bitnami # add repo (bitnami)
