@@ -1,4 +1,4 @@
-# Useful Git Commands
+# Git Cheat Sheet
 
 Most common `git` commands
 

@@ -1,6 +1,6 @@
-# Helm
+# Helm Cheat Sheet
 
-## Cheat Sheet
+Most common `helm` commands
 
 ```sh
 # repo 

@@ -1,4 +1,4 @@
-# WSL
+# WSL Cheat Sheet
 
 My most common `wsl` command
 

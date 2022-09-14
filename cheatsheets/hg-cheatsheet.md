@@ -1,4 +1,4 @@
-# Useful Hg Commands
+# hg Cheat Sheet
 
 Most common `hg` commands in Mercurial
 
