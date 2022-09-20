@@ -17,6 +17,7 @@ helm search repo bitnami # search repo
 helm install hello-wordpress bitnami/wordpress # install with specified name
 helm install bitnami/wordpress --generate-name # install with name auto-generated
 helm install foo path/to/foo # install an upacked chart directory
+helm install bitnami/wordpress --generate-name --dry-run --debug # check generated manifests of a release without installing
 
 # install: override any of these settings
 echo '{mariadb.auth.database: user0db, mariadb.auth.username: user0}' > values.yaml
@@ -47,4 +48,5 @@ helm list # list release (or helm ls)
 helm status hello-wordpress # current state of your release
 helm get values hello-wordpress # see values
 helm history [RELEASE] # to see revision numbers for a certain release
+helm template bitnami/wordpress --debug # to test rendering chart templates locally
 ```
