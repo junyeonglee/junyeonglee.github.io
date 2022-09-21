@@ -13,6 +13,7 @@ My cheat sheet collection:
 - [kubectl](./kubectl-cheatsheet.md)
 - [Markdown + Github Flavored Markdown (GFM)](https://github.github.com/gfm/) :octocat:
 - [npm](./npm-cheatsheet.md)
+- [sprig](./sprig-cheatsheet.md)
 - [Visual Studio keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Visual Studio keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [Windows Subsystem for Linux (WSL)](./wsl-cheatsheet.md)
