@@ -12,6 +12,7 @@ My cheat sheet collection:
 - [hg](./hg-cheatsheet.md)
 - [kubectl](./kubectl-cheatsheet.md)
 - [Markdown + Github Flavored Markdown (GFM)](https://github.github.com/gfm/) :octocat:
+- [nerdctl](./nerdctl-cheatsheet.md)
 - [npm](./npm-cheatsheet.md)
 - [sprig](./sprig-cheatsheet.md)
 - [Visual Studio keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
