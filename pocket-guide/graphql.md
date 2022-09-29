@@ -118,7 +118,6 @@ fragment comparisonFields on Character {
         "jediHero": { "name": "R2-D2", "appearsIn": [] }
     }
 }
-### you can't directly query for the same field with different arguments
 ```
 
 </details></br>
