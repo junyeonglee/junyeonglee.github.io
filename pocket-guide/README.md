@@ -7,6 +7,7 @@ My pocket guide collection:
 - [AWS](./aws.md)
 - [Docker](./docker.md)
 - [go](go.md)
+- [graphQL](./graphql.md)
 - [Kubernetes](./kubernetes.md)
 - [Linux](./linux.md)
 - [npm](npm.md)
