@@ -8,6 +8,7 @@ helm repo list # list existing repo
 helm repo add bitnami https://charts.bitnami.com/bitnami # add repo (bitnami)
 helm repo update # stay up to date
 helm repo remove bitnami # remove repo
+helm repo index . # generate an index file 
 
 # search
 helm search hub wordpress # search artifact hub
@@ -22,6 +23,9 @@ helm install bitnami/wordpress --generate-name --dry-run --debug # check generat
 # install: override any of these settings
 echo '{mariadb.auth.database: user0db, mariadb.auth.username: user0}' > values.yaml
 helm install -f values.yaml bitnami/wordpress --generate-name
+
+# install: use --set to pass config from the command line
+helm install hello-wordpress bitnami/wordpress --set tags.database=true
 
 # show
 helm show values bitnami/wordpress # too see what options are configurable
@@ -38,6 +42,11 @@ helm uninstall happy-wordpress # uninstall a release
 helm create my-workflow
 helm package my-workflow 
 helm install my-workflow ./my-workflow-0.1.0.tgz
+
+# dependency
+helm dependency update my-workflow # update charts/ based on the contents of Chart.yaml
+helm dependency list my-workflow # list dependencies
+helm dependency build my-workflow # rebuild the charts/ directory based on the Chart.lock file
 
 # pull 
 helm pull 0.1.0 wordpress # download a chart with release
