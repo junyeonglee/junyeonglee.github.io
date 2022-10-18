@@ -40,6 +40,10 @@ git reset --hard origin/master # Drop all local changes and commits
 git diff > my-patch
 git apply my-patch
 
+# Stash
+git stash # stash the changes in a dirty working directory away
+git stash pop # remove from stash list and apply it on top of the current working tree state
+
 # Pull 
 git pull origin foo # git fetch origin foo; git merge origin/foo
 git pull origin bar~1:bugFix # git fetch origin bar~1:bugFix; git merge bugFix
