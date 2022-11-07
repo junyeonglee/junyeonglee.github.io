@@ -38,4 +38,7 @@ kubectl delete pod my-pod --grace-period=<seconds> # Graceful terminate
 # Formatting output
 -o=json # Output a JSON formatted API object
 -o=yaml # Output a YAML formatted API object
+
+# Interacting cluster
+kubectl api-resources # List all supported resource types along with their shortnames
 ```
