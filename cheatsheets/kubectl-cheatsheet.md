@@ -41,4 +41,7 @@ kubectl delete pod my-pod --grace-period=<seconds> # Graceful terminate
 
 # Interacting cluster
 kubectl api-resources # List all supported resource types along with their shortnames
+
+# Misc
+<service-name>.<namespace>.svc.cluster.local:<service-port> # Url of a service
 ```
