@@ -11,6 +11,7 @@ kubectl config set-context my-cluster-name --namespace=my-namespace # set the de
 # Creating Objects
 kubectl apply -f ./my-manifest.yaml # create resource(s)
 kubectl apply -f ./dir # create resource(s) in all manifest files in dir
+kubectl explain pods --recursive # get the doc for pod manifests (print the fields of fields with --recursive)
 
 # Get commands with basic output
 kubectl get services # List all services
